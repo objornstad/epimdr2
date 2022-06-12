@@ -1,10 +1,12 @@
-1.0-6 Changed capitalization of functions and data sets
+1.0-7 Renamed mod functions and data sets. Added sirSpat, gravity and ross.app. Updated twostrain and twostrain.app. Added variant dataset.
 
-1.0-5 added SpatTSIR and waller, pdv and m4494 datasets. 
+1.0-6 Changed capitalization of functions and datasets
 
-1.0-4 added twostrain. Updated SEIR, SEIRS and SIR shinyApps
+1.0-5 added spatTsir and waller, pdv and m4494 datasets. 
 
-1.0-3 Added colorado spring network; changed NetworkSIR to networkSIR
+1.0-4 added twostrain. Updated seir, seirs and sir shinyApps
+
+1.0-3 Added colorado spring network; changed NetworkSIR to sirNetmod
 
 1.0-2 Change shinys to use R0 rather than beta. Added twostrain.app
 
