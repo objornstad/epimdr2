@@ -18,7 +18,7 @@ A data frame with 1982 rows and 9 variables:
 }
 }
 \source{
-Lavine et al. 2013. Immune boosting explains regime- shifts in prevaccine-era pertussis dynamics. PLoS ONE, 8(8):e72086. \url{http://doi:10.1371/journal.pone.0072086}
+Lavine et al. 2013. Immune boosting explains regime- shifts in prevaccine-era pertussis dynamics. PLoS ONE, 8(8):e72086. <doi:10.1371/journal.pone.0072086>
 }
 \usage{
 pertcop

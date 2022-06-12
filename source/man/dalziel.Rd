@@ -20,7 +20,7 @@ A data frame with 44,720 rows and 10 variables:
 }
 }
 \source{
-Dalziel et al. 2016. Persistent chaos of measles epidemics in the prevaccination United States caused by a small change in seasonal transmission patterns. PLoS Computational Biology 2016: e1004655.  \url{http://doi.org/10.1371/journal.pcbi.1004655}
+Dalziel et al. 2016. Persistent chaos of measles epidemics in the prevaccination United States caused by a small change in seasonal transmission patterns. PLoS Computational Biology 2016: e1004655.  <doi:10.1371/journal.pcbi.1004655>
 }
 \usage{
 dalziel

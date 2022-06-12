@@ -4,14 +4,14 @@
 \alias{jacobian}
 \title{A Jacobian matrix calculator}
 \usage{
-jacobian(states, elist, params, pts)
+jacobian(states, elist, parameters, pts)
 }
 \arguments{
 \item{states}{a vector naming all state variables}
 
 \item{elist}{a list that contains equations (as quotes) for all state variables}
 
-\item{params}{a labeled vector of parameters}
+\item{parameters}{a labeled vector of parameters}
 
 \item{pts}{a labeled vector of the point in the phase plane in which to evaluate the Jacobian 
 (often the endemic or disease-free equilibrium if working in mathematical epidemiology)}
@@ -32,5 +32,5 @@ dR = quote(gamma * I - mu * R))
 paras  = c(mu = 1/50, N = 1, beta =  1000, 
 sigma = 365/8, gamma = 365/5, alpha=0)
 deq=list(S = 1, E = 0, I = 0, R = 0)
-jacobian(states=states, elist=elist, params=paras, pts=deq)
+jacobian(states=states, elist=elist, parameters=paras, pts=deq)
 }

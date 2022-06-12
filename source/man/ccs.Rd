@@ -21,7 +21,7 @@ A data frame with 954 rows and 14 variables:
 \source{
 Bjornstad and Grenfell (2008) Hazards, spatial transmission and 
 timing of outbreaks in epidemic metapopulations. 
-Environmental and Ecological Statistics 15: 265-277. \url{http://doi:10.1007/s10651-007-0059-3}
+Environmental and Ecological Statistics 15: 265-277. <doi:10.1007/s10651-007-0059-3>
 }
 \usage{
 ccs

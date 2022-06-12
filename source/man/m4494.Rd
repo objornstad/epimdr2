@@ -15,12 +15,13 @@ for each of the years in the data set.}
 \item{longlat}{A matrix with 354 rows and two columns. Rows 
 represents community and columns longitude and latitude.}
 \item{year}{A vector of length 354 that represents time for each week as yearly decimals.} 
+\item{coverage}{A vector of length 2661 that represents reported annual vaccine coverage for each week.} 
 }
 }
 \source{
-Grenfell, B.T., Bjornstad, O.N., & Kappey, J. 2001. Travelling waves and spatial hierarchies in measles epidemics. Nature 414: 716-723. \url{http://dx.doi.org/10.1038/414716a}
+Grenfell, B.T., Bjornstad, O.N., & Kappey, J. 2001. Travelling waves and spatial hierarchies in measles epidemics. Nature 414: 716-723. <doi:10.1038/414716a>
 
-Lau, M.S.Y., Becker, A.D, Korevaar, H.M., Caudron, Q., Shaw, D.J., Metcalf, C.J.E., Bjornstad, O.N. and Grenfell, B.T. 2020. A competing-risks model explains hierarchical spatial coupling of measles epidemics en route to national elimination. Nature Ecology & Evolution. \url{https://doi.org/10.1038/s41559-020-1186-6}
+Lau, M.S.Y., Becker, A.D, Korevaar, H.M., Caudron, Q., Shaw, D.J., Metcalf, C.J.E., Bjornstad, O.N. and Grenfell, B.T. 2020. A competing-risks model explains hierarchical spatial coupling of measles epidemics en route to national elimination. Nature Ecology & Evolution. <doi:10.1038/s41559-020-1186-6>
 }
 \usage{
 m4494

@@ -14,7 +14,7 @@ A data frame with 95 rows and 2 variables:
 }
 }
 \source{
-Metcalf et al (2011) Rubella metapopulation dynamics and importance of spatial coupling to the risk of congenital rubella syndrome in Peru. Journal of the Royal Society Interface 8: 369-376. \url{http://doi:10.1371/journal.pone.0072086}
+Metcalf et al (2011) Rubella metapopulation dynamics and importance of spatial coupling to the risk of congenital rubella syndrome in Peru. Journal of the Royal Society Interface 8: 369-376. <doi:10.1371/journal.pone.0072086>
 }
 \usage{
 peru

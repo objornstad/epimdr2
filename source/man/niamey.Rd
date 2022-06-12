@@ -23,7 +23,7 @@ A data frame with 31 rows and 13 variables:
 }
 }
 \source{
-Grais et al (2008) Time is of the essence: exploring a measles outbreak response vaccination in Niamey, Niger. Journal of the Royal Society Interface 5: 67-74. \url{https://doi.org/10.1098/rsif.2007.1038}
+Grais et al (2008) Time is of the essence: exploring a measles outbreak response vaccination in Niamey, Niger. Journal of the Royal Society Interface 5: 67-74. <doi:10.1098/rsif.2007.1038>
 }
 \usage{
 niamey

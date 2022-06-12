@@ -14,7 +14,7 @@ A data frame with 162 rows and 4 variables:
 }
 }
 \source{
-Smith et al. 2003. Epidemiological patterns at multiple spatial scales: an 11-year study of a Triphragmium ulmariae -- Filipendula ulmaria metapopulation. Journal of Ecology, 91(5), pp.890-903.  \url{http://doi.org/10.1046/j.1365-2745.2003.00811.x}
+Smith et al. 2003. Epidemiological patterns at multiple spatial scales: an 11-year study of a Triphragmium ulmariae -- Filipendula ulmaria metapopulation. Journal of Ecology, 91(5), pp.890-903.  <doi:10.1046/j.1365-2745.2003.00811.x>
 }
 \usage{
 filipendula

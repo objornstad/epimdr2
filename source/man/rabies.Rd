@@ -22,7 +22,7 @@ A data frame with 208 rows and 12 variables:
 }
 }
 \source{
-Childs et al. 2000. Predicting the local dynamics of epizootic rabies among raccoons in the United States Proceedings of the National Academy of Sciences 97:13666-13671. \url{http://doi.org/10.1073/pnas.240326697}
+Childs et al. 2000. Predicting the local dynamics of epizootic rabies among raccoons in the United States Proceedings of the National Academy of Sciences 97:13666-13671. <doi:10.1073/pnas.240326697>
 }
 \usage{
 rabies

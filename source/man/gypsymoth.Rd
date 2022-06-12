@@ -12,7 +12,7 @@ A list with two matrices each with 1086 rows:
 }
 }
 \source{
-Bjornstad, O. N., Robinet, C., & Liebhold, A. M. (2010). Geographic variation in North American gypsy moth cycles: subharmonics, generalist predators, and spatial coupling. Ecology, 91(1), 106-118. \url{http://doi.org/10.1890/08-1246.1}
+Bjornstad, O. N., Robinet, C., & Liebhold, A. M. (2010). Geographic variation in North American gypsy moth cycles: subharmonics, generalist predators, and spatial coupling. Ecology, 91(1), 106-118. <doi:10.1890/08-1246.1>
 }
 \usage{
 gypsymoth

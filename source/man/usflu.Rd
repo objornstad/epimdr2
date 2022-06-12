@@ -17,7 +17,7 @@ A data frame with 49 rows and 7 variables:
 }
 }
 \source{
-Viboud C, Bjornstad ON, Smith DL, Simonsen L, Miller MA, Grenfell BT (2006) Synchrony, waves, and spatial hierarchies in the spread of influenza. Science 312: 447-451. \url{http://doi.org/10.1126/science.1125237}
+Viboud C, Bjornstad ON, Smith DL, Simonsen L, Miller MA, Grenfell BT (2006) Synchrony, waves, and spatial hierarchies in the spread of influenza. Science 312: 447-451.<doi:10.1126/science.1125237>
 }
 \usage{
 usflu

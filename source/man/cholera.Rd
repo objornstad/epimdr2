@@ -15,7 +15,7 @@ A data frame with 600 rows and 4 variables:
 }
 \source{
 King, A.A., Ionides, E.L., Pascual, M. and Bouma, M. J. (2008) 
-Inapparent infections and cholera dynamics. Nature, 454:877-880. \url{http://doi.org/10.1038/nature07084}
+Inapparent infections and cholera dynamics. Nature, 454:877-880. <doi:10.1038/nature07084>
 }
 \usage{
 cholera

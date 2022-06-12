@@ -13,7 +13,7 @@ A data frame with 360 rows and 3 variables:
 }
 }
 \source{
-Bjornstad ON, Viboud C. Timing and periodicity of influenza epidemics. Proceedings of the National Academy of Sciences. 2016 Nov 15;113(46):12899-901. \url{http://doi.org/10.1073/pnas.1616052113}
+Bjornstad ON, Viboud C. Timing and periodicity of influenza epidemics. Proceedings of the National Academy of Sciences. 2016 Nov 15;113(46):12899-901. <doi:10.1073/pnas.1616052113>
 }
 \usage{
 icelandflu

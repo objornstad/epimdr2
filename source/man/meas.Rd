@@ -15,7 +15,7 @@ A data frame with 546 rows and 5 variables:
 }
 }
 \source{
-Bjornstad et al. (2002) Endemic and epidemic dynamics of measles: Estimating transmission rates and their scaling using a time series SIR model. Ecological Monographs 72: 169-184. \url{http://doi.org/10.2307/3100023}
+Bjornstad et al. (2002) Endemic and epidemic dynamics of measles: Estimating transmission rates and their scaling using a time series SIR model. Ecological Monographs 72: 169-184. <doi:10.2307/3100023>
 }
 \usage{
 meas

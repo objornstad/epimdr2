@@ -28,7 +28,7 @@ A data frame with 238 rows and 18 variables:
 }
 }
 \source{
-Roy et al. 2009. Multivariate statistical analyses demonstrate unique host immune responses to single and dual lentiviral infection. PLoS one 4, e7359. \url{http://doi.org/10.1371/journal.pone.0007359}
+Roy et al. 2009. Multivariate statistical analyses demonstrate unique host immune responses to single and dual lentiviral infection. PLoS one 4, e7359. <doi:10.1371/journal.pone.0007359>
 }
 \usage{
 fiv

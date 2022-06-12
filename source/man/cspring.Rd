@@ -18,7 +18,7 @@ A list of two items the first ($nodes) is a frame with 749 rows and 6 variables,
 \source{
 Woodhouse et al. (1994) Mapping a social network of heterosexuals at high risk for HIV Infection. AIDS 8:1331-1336. doi:10.1097/00002030-199409000-00018
 
-Klovdahl et al. (1994) Social networks and infectious disease: The Colorado Springs study. Social Science and Medicine 38:79-88. \url{doi:10.1016/0277-9536(94)90302-6}
+Klovdahl et al. (1994) Social networks and infectious disease: The Colorado Springs study. Social Science and Medicine 38:79-88. <doi:10.1016/0277-9536(94)90302-6>
 
 \url{https://opr.princeton.edu/archive/p90/}
 }

@@ -16,7 +16,7 @@ seal carcases}
 }
 }
 \source{
-Harding, K. C., Härkönen, T. and Caswell, H. (2002), The 2002 European seal plague: epidemiology and population consequences. Ecology Letters, 5: 727-732. \url{https://doi.org/10.1046/j.1461-0248.2002.00390.x}
+Harding, K. C., Härkönen, T. and Caswell, H. (2002), The 2002 European seal plague: epidemiology and population consequences. Ecology Letters, 5: 727-732. <doi:10.1046/j.1461-0248.2002.00390.x>
 }
 \usage{
 pdv

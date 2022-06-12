@@ -14,7 +14,7 @@ A data frame with 103 rows and 4 variables:
 }
 }
 \source{
-\url{http://www.cdc.gov/vhf/ebola/outbreaks/2014-west-africa/cumulative-cases-graphs.html}
+\url{https://www.cdc.gov/vhf/ebola/outbreaks/2014-west-africa/cumulative-cases-graphs.html}
 }
 \usage{
 ebola

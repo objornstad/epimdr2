@@ -18,7 +18,7 @@ A data frame with 494 rows and 8 variables:
 }
 }
 \source{
-Long et al (2010) Identifying the Age Cohort Responsible for Transmission in a Natural Outbreak of Bordetella bronchiseptica. PLoS Pathogens 6(12): e1001224. \url{http://doi:10.1371/journal.ppat.1001224}
+Long et al (2010) Identifying the Age Cohort Responsible for Transmission in a Natural Outbreak of Bordetella bronchiseptica. PLoS Pathogens 6(12): e1001224. <doi:10.1371/journal.ppat.1001224>
 }
 \usage{
 litter

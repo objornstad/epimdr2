@@ -11,7 +11,7 @@ A matrix with 89 rows and 89 columns:
 }
 }
 \source{
-De et al (2004). Sexual network analysis of a gonorrhea outbreak. Sexually transmitted infections 80: 280-285. \url{http://doi.org/10.1136/sti.2003.007187}
+De et al (2004). Sexual network analysis of a gonorrhea outbreak. Sexually transmitted infections 80: 280-285. <doi:10.1136/sti.2003.007187>
 }
 \usage{
 gonnet
