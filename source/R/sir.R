@@ -41,9 +41,9 @@
 #' times  = seq(0, 10, by=1/52)
 #' paras  = c(mu = 1/75, N = 1, beta =  625, gamma = 365/14, u=5)
 #' xstart2 = log(c(S=.06, I=c(0.001, rep(0.0001, paras["u"]-1)), R = 0.0001))
-#' out = as.data.frame(ode(xstart2, times, chainSir, paras))
+#' out = as.data.frame(ode(xstart2, times, sirChainmod, paras))
 #' @export
-chainSir=function(t, logx, parameters) {
+sirChainmod=function(t, logx, parameters) {
     x = exp(logx)
     u = parameters["u"]
     S = x[1]
@@ -140,9 +140,9 @@ seirmod2=function(t, y, parameters){
 #' paras =list(N=1, gamma=365/14, mu=0.02, beta=500, W=W,v=rep(0,4), r=ra)
 #' xstart=log(c(S=rep(0.099/n,n), I=rep(0.001/n,n), R=rep(0.9/n,n)))
 #' times=seq(0,10,by=14/365)
-#' out=as.data.frame(ode(xstart, times, siragemod, paras))
+#' out=as.data.frame(ode(xstart, times, sirAgemod, paras))
 #' @export
-siragemod = function(t, logx,  parameters){
+sirAgemod = function(t, logx,  parameters){
 	n=length(parameters$r)
 	xx = exp(logx)
         S = xx[1:n]
@@ -158,4 +158,39 @@ siragemod = function(t, logx,  parameters){
 		list((res))
 	})
 }
+
+#c10
+
+
+#' Gradient-function for the SIRWS model
+#' @param t Implicit argument for time
+#' @param logy  A vector with values for the log(states)
+#' @param parameters A vector with parameter values for the SIRWS system
+#' @return A list of gradients (in log-coordinates)
+#' @examples
+#' require(deSolve)
+#' times  = seq(0, 26, by=1/10)
+#' paras  = c(mu = 1/70, p=0.2, N = 1, beta = 200, omega = 1/10, gamma = 17, kappa=30)
+#' start = log(c(S=0.06, I=0.01, R=0.92, W = 0.01))
+#' out = as.data.frame(ode(start, times, sirwmod, paras))
+#' @export
+sirwmod = function(t, logy, parameters){
+   y = exp(logy)
+   S = y[1]
+   I = y[2]
+   R = y[3]
+   W = y[4]
+   with(as.list(parameters),{
+     dS = mu * (1-p) * N  - mu * S  - beta * S * I / N + 
+       2 * omega * W
+     dI = beta * S * I / N - (mu + gamma) * I
+     dR = gamma * I - mu * R - 2 * omega * R +  
+       kappa * beta * W * I / N + mu * p * N
+     dW = 2 * omega * R - kappa * beta * W * I / N - 
+       (2 * omega + mu) * W 
+     res = c(dS/S, dI/I, dR/R, dW/W)
+     list(res)
+   })
+ }
+
 

@@ -46,7 +46,7 @@ mainPanel(tabsetPanel(
 
 # This creates the 'behind the scenes' code (Server)
 server = function(input, output) {
- nbmod = function(R, a, k, T = 100, H0 = 10, P0 = 1){
+ maymod = function(R, a, k, T = 100, H0 = 10, P0 = 1){
    #T is length of simulation (number of time-steps)
    #H0 and P0 are initial numbers
    #we provide default parameters except for R and a
@@ -74,7 +74,7 @@ server = function(input, output) {
 
   output$plot1 <- renderPlot({
 
-    sim= nbmod(R=input$R, a=input$a, k=input$k, H0=input$H0, P0=input$P0, T=input$Tmax)
+    sim= maymod(R=input$R, a=input$a, k=input$k, H0=input$H0, P0=input$P0, T=input$Tmax)
     time = 1:input$Tmax
 
     plot(time, sim$H, type= "b",xlab = "Generations", ylab = "Abundance", 
@@ -89,7 +89,7 @@ server = function(input, output) {
 
 output$plot2 <- renderPlot({
 
-    sim= nbmod(R=input$R, a=input$a, k=input$k, H0=input$H0, P0=input$P0, T=input$Tmax)
+    sim= maymod(R=input$R, a=input$a, k=input$k, H0=input$H0, P0=input$P0, T=input$Tmax)
     time = 1:input$Tmax
    
     plot(sim$H, sim$P, type= "b",xlab = "Host", ylab = "Parasitoid")
@@ -113,13 +113,13 @@ tsir.app=shinyApp(
 ui = pageWithSidebar(
 headerPanel("Simulating with TSIR"),
 sidebarPanel(
-sliderInput("alpha", "alpha:", 0.97,
+sliderInput("alpha", HTML("I exponent (&alpha;):"), 0.97,
               min = 0.8, max = 1),
-sliderInput("beta", "beta:", 25,
+sliderInput("beta", HTML("Transmission rate (&beta;):"), 25,
               min = 0, max = 100),
 sliderInput("B", "Births (B):", 2300,
               min = 0, max = 5000),
-sliderInput("S0", "Fraction S:", 0.06,
+sliderInput("S0", "Initial S fraction:", 0.06,
               min = 0, max = 1),
 numericInput("sdbeta", "sdbeta:", 3,
               min = 0, max = 10),
@@ -147,7 +147,7 @@ mainPanel(
 
 # This creates the 'behind the scenes' code (Server)
 server = function(input, output) {
-  simTsir=function(alpha, B, beta, sdbeta,
+  tsirSim=function(alpha, B, beta, sdbeta,
     S0, I0, IT, N){
     lambda = rep(NA, IT)
     I = rep(NA, IT)
@@ -165,7 +165,7 @@ server = function(input, output) {
 }
 
   output$plot1 <- renderPlot({
-  out = simTsir(alpha=input$alpha, B=input$B, beta=input$beta, sdbeta=input$sdbeta, 
+  out = tsirSim(alpha=input$alpha, B=input$B, beta=input$beta, sdbeta=input$sdbeta, 
   S0=input$S0, I0=input$I0, IT=input$IT, N=input$N)
 par(mfrow=c(1,2))  #This puts two plots side by side each other
 plot(out$I, ylab="infected", xlab="time", type="b")
@@ -173,7 +173,7 @@ plot(out$S, out$I, ylab="infected", xlab="susceptible", type="b")
 })
 
   output$plot2 <- renderPlot({
-  out = simTsir(alpha=input$alpha, B=input$B, beta=input$beta, sdbeta=input$sdbeta, 
+  out = tsirSim(alpha=input$alpha, B=input$B, beta=input$beta, sdbeta=input$sdbeta, 
   S0=input$S0, I0=input$I0, IT=input$IT, N=input$N)
 Seq=expression(S-beta*S*I^alpha/N+B)
 Ieq=expression(beta*S*I^alpha/N)

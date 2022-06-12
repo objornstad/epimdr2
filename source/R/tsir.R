@@ -12,11 +12,11 @@
 #' @param N the population size
 #' @return A list with time series of simulated infected and susceptible hosts
 #' @examples
-#' out = simTsir()
+#' out = tsirSim()
 #' @export
 #' @importFrom stats rnorm
 #' @importFrom stats rpois
-simTsir=function(alpha=0.97, B=2300, beta=25, sdbeta=0,
+tsirSim=function(alpha=0.97, B=2300, beta=25, sdbeta=0,
     S0 = 0.06, I0=180, IT=520, N=3.3E6){
     lambda = rep(NA, IT)
     I = rep(NA, IT)
@@ -47,7 +47,7 @@ simTsir=function(alpha=0.97, B=2300, beta=25, sdbeta=0,
 #' @examples
 #' \dontrun{see chapter 8 in book}
 #' @export
-simTsir2=function(beta, alpha, B, N,  inits = list(Snull = 0, Inull = 0), type = "det"){
+tsirSim2=function(beta, alpha, B, N,  inits = list(Snull = 0, Inull = 0), type = "det"){
     type = charmatch(type, c("det", "stoc"), nomatch = NA)
     if(is.na(type))
         stop("method should be \"det\", \"stoc\"")
@@ -150,7 +150,7 @@ return(res)
 #' @examples
 #' \dontrun{see chapter XX in book}
 #' @export
-spatTsir=function(beta, alpha, B, N, p, c, inits = list(Snull, Inull), type = "det"){
+tsirSpat=function(beta, alpha, B, N, p, c, inits, type = "det"){
   type = charmatch(type, c("det", "stoc"), nomatch = NA)
   if(is.na(type))
     stop("method should be \"det\", \"stoc\"")

@@ -17,7 +17,7 @@
 #' }
 #' @source Bjornstad and Grenfell (2008) Hazards, spatial transmission and 
 #' timing of outbreaks in epidemic metapopulations. 
-#' Environmental and Ecological Statistics 15: 265-277. \url{http://doi:10.1007/s10651-007-0059-3}
+#' Environmental and Ecological Statistics 15: 265-277. <doi:10.1007/s10651-007-0059-3>
 "ccs"
 
 #' Massachusetts gonorrhea data.
@@ -46,7 +46,7 @@
 #'   \item{Population}{Population size of district}
 #' }
 #' @source King, A.A., Ionides, E.L., Pascual, M. and Bouma, M. J. (2008) 
-#' Inapparent infections and cholera dynamics. Nature, 454:877-880. \url{http://doi.org/10.1038/nature07084}
+#' Inapparent infections and cholera dynamics. Nature, 454:877-880. <doi:10.1038/nature07084>
 "cholera"
 
 
@@ -71,7 +71,7 @@
 #'   \item{attack_3}{weekly attack rates for district 3}
 #'   \item{cum_cases}{weekly cumulative incidence for the whole city}
 #' }
-#' @source Grais et al (2008) Time is of the essence: exploring a measles outbreak response vaccination in Niamey, Niger. Journal of the Royal Society Interface 5: 67-74. \url{https://doi.org/10.1098/rsif.2007.1038}
+#' @source Grais et al (2008) Time is of the essence: exploring a measles outbreak response vaccination in Niamey, Niger. Journal of the Royal Society Interface 5: 67-74. <doi:10.1098/rsif.2007.1038>
 "niamey"
 
 #' Boarding school influenza data.
@@ -98,7 +98,7 @@
 #'   \item{cum_cases}{cumulative incidence}
 #'   \item{cases}{incidence calculated by differencing the cumcases and setting negatives to zero.}
 #' }
-#' @source \url{http://www.cdc.gov/vhf/ebola/outbreaks/2014-west-africa/cumulative-cases-graphs.html}
+#' @source \url{https://www.cdc.gov/vhf/ebola/outbreaks/2014-west-africa/cumulative-cases-graphs.html}
 "ebola"
 
 #' Ferrari et al. 2005 outbreak data.
@@ -115,8 +115,26 @@
 #'   \item{SarsHk}{Number of cases of SARS in Hong Kong during the 2003 outbreak}
 #'   \item{SarsSing}{Number of cases of SARS in Singapore during the 2003 outbreak}
 #' }
-#' @source Ferrari et al. (2005) Estimation and inference of R-0 of an infectious pathogen by a removal method. Mathematical Biosciences 198: 14-26. \url{http://doi.org/10.1016/j.mbs.2005.08.002}
+#' @source Ferrari et al. (2005) Estimation and inference of R-0 of an infectious pathogen by a removal method. Mathematical Biosciences 198: 14-26. <doi:10.1016/j.mbs.2005.08.002>
 "ferrari"
+
+#' US SARS-CoV-2 variant data.
+#'
+#'Weekly fraction of identification of the various CoV-2 variants May 2021 through March 2022.
+#'
+#' @format A data frame with 47 rows and 7 variables:
+#' \describe{
+#' \item{date}{End of week of sample}
+#'   \item{other}{Early variants}
+#'   \item{B.1.617.2}{Delta variant}
+#'   \item{B.1.1.529}{First omicron variant}
+#'   \item{BA.1.1}{Omicron variant BA.1}
+#'   \item{BA.2}{Omicron variant BA.2 and BA.2.12}
+#'   \item{BA.2.12.1}{Omicron variant BA 2.12.1}
+#' }
+#' @source \url{https://coronavirus.health.ny.gov/covid-19-variant-data}
+"variants"
+
 
 #' De et al. 2004 gonorrhea contact matrix
 #'
@@ -126,7 +144,7 @@
 #' \describe{
 #'   \item{gonet}{a matrix of directional contacts of disease spread}
 #' }
-#' @source De et al (2004). Sexual network analysis of a gonorrhea outbreak. Sexually transmitted infections 80: 280-285. \url{http://doi.org/10.1136/sti.2003.007187}
+#' @source De et al (2004). Sexual network analysis of a gonorrhea outbreak. Sexually transmitted infections 80: 280-285. <doi:10.1136/sti.2003.007187>
 "gonnet"
 
 #' Black's measles seroprevalence data.
@@ -156,7 +174,7 @@
 #'   \item{n}{number of rabbits tested}
 #'   \item{inf}{number of rabbits infected with the bacterium}
 #' }
-#' @source Long et al (2010) Identifying the Age Cohort Responsible for Transmission in a Natural Outbreak of Bordetella bronchiseptica. PLoS Pathogens 6(12): e1001224. \url{http://doi:10.1371/journal.ppat.1001224}
+#' @source Long et al (2010) Identifying the Age Cohort Responsible for Transmission in a Natural Outbreak of Bordetella bronchiseptica. PLoS Pathogens 6(12): e1001224. <doi:10.1371/journal.ppat.1001224>
 "rabbit"
 
 #' Rubella in Peru data.
@@ -170,7 +188,7 @@
 #'   \item{incidence}{number of rubella cases}
 #'   \item{n}{total cases}
 #' }
-#' @source Metcalf et al (2011) Rubella metapopulation dynamics and importance of spatial coupling to the risk of congenital rubella syndrome in Peru. Journal of the Royal Society Interface 8: 369-376. \url{http://doi:10.1371/journal.pone.0072086}
+#' @source Metcalf et al (2011) Rubella metapopulation dynamics and importance of spatial coupling to the risk of congenital rubella syndrome in Peru. Journal of the Royal Society Interface 8: 369-376. <doi:10.1371/journal.pone.0072086>
 "peru"
 
 #' POLYMOD contact-rate data by Age.
@@ -183,8 +201,8 @@
 #'   \item{contactee}{end of age-bracket (in years) of contactee group}
 #'   \item{contact.rate}{average contact rate}
 #' }
-#' @source Mossong et al. 2008 Social contacts and mixing patterns relevant to the spread of infectious diseases PLoS Med, Public Library of Science  5:e74. \url{http://doi.org/10.1371/journal.pmed.0050074}
-"mossong"
+#' @source Mossong et al. 2008 Social contacts and mixing patterns relevant to the spread of infectious diseases PLoS Med, Public Library of Science  5:e74. <doi:10.1371/journal.pmed.0050074>.
+"polymod"
 
 #' 2005 US Life table.
 #'
@@ -271,7 +289,7 @@
 #'   \item{B}{Biweekly births}
 #' }
 #' @details Birth numbers are annual, so in the data set, this number is evenly distributed across the 26 bi-weeks of each year.
-#' @source Bjornstad et al. (2002) Endemic and epidemic dynamics of measles: Estimating transmission rates and their scaling using a time series SIR model. Ecological Monographs 72: 169-184. \url{http://doi.org/10.2307/3100023}
+#' @source Bjornstad et al. (2002) Endemic and epidemic dynamics of measles: Estimating transmission rates and their scaling using a time series SIR model. Ecological Monographs 72: 169-184. <doi:10.2307/3100023>
 "meas"
 
 #c6
@@ -294,7 +312,7 @@
 #'   \item{Para}{Parasite count}
 #' }
 #' @source Sylvie Huijben 
-"sh9"
+"chabaudi"
 
 #' Monthly incidence of influenza-like illness in Iceland between 1980 and 2009.
 #'
@@ -307,7 +325,7 @@
 #'   \item{year}{the year}
 #'   \item{ili}{ILI incidence}
 ##' }
-#' @source Bjornstad ON, Viboud C. Timing and periodicity of influenza epidemics. Proceedings of the National Academy of Sciences. 2016 Nov 15;113(46):12899-901. \url{http://doi.org/10.1073/pnas.1616052113}
+#' @source Bjornstad ON, Viboud C. Timing and periodicity of influenza epidemics. Proceedings of the National Academy of Sciences. 2016 Nov 15;113(46):12899-901. <doi:10.1073/pnas.1616052113>
 "icelandflu"
 
 
@@ -383,7 +401,7 @@
 #' \describe{
 #'   \item{day}{the day of appearance of each case since day of outbreak}
 #' }
-#' @source Grais et al. (2008) Time is of the essence: exploring a measles outbreak response vaccination in Niamey, Niger. Journal of the Royal Society Interface 5: 67-74. \url{http://doi.org/10.1098/rsif.2007.1038}
+#' @source Grais et al. (2008) Time is of the essence: exploring a measles outbreak response vaccination in Niamey, Niger. Journal of the Royal Society Interface 5: 67-74. <doi:10.1098/rsif.2007.1038>
 "niamey_daily"
 
 
@@ -405,7 +423,7 @@
 #'   \item{lat}{city latitude} 
 #'   \item{decimalYear}{time counter}
 #' }
-#' @source Dalziel et al. 2016. Persistent chaos of measles epidemics in the prevaccination United States caused by a small change in seasonal transmission patterns. PLoS Computational Biology 2016: e1004655.  \url{http://doi.org/10.1371/journal.pcbi.1004655}
+#' @source Dalziel et al. 2016. Persistent chaos of measles epidemics in the prevaccination United States caused by a small change in seasonal transmission patterns. PLoS Computational Biology 2016: e1004655.  <doi:10.1371/journal.pcbi.1004655>
 "dalziel"
 
 
@@ -421,7 +439,7 @@
 #'   \item{X}{X coordinate}
 #'   \item{Y}{Y coordinate}
 #' }
-#' @source Smith et al. 2003. Epidemiological patterns at multiple spatial scales: an 11-year study of a Triphragmium ulmariae -- Filipendula ulmaria metapopulation. Journal of Ecology, 91(5), pp.890-903.  \url{http://doi.org/10.1046/j.1365-2745.2003.00811.x}
+#' @source Smith et al. 2003. Epidemiological patterns at multiple spatial scales: an 11-year study of a Triphragmium ulmariae -- Filipendula ulmaria metapopulation. Journal of Ecology, 91(5), pp.890-903.  <doi:10.1046/j.1365-2745.2003.00811.x>
 "filipendula"
 
 #' US 1975/76 ILI data.
@@ -439,7 +457,7 @@
 #'   \item{Start}{Week of start of epidemic}
 #'   \item{Peak}{Week of peak of epidemic}
 #' }
-#' @source Viboud C, Bjornstad ON, Smith DL, Simonsen L, Miller MA, Grenfell BT (2006) Synchrony, waves, and spatial hierarchies in the spread of influenza. Science 312: 447-451. \url{http://doi.org/10.1126/science.1125237}
+#' @source Viboud C, Bjornstad ON, Smith DL, Simonsen L, Miller MA, Grenfell BT (2006) Synchrony, waves, and spatial hierarchies in the spread of influenza. Science 312: 447-451.<doi:10.1126/science.1125237>
 "usflu"
 
 
@@ -484,7 +502,7 @@
 #'   \item{VA}{Virginia}
 #'   \item{WV}{West Virginia}
 #' }
-#' @source Childs et al. 2000. Predicting the local dynamics of epizootic rabies among raccoons in the United States Proceedings of the National Academy of Sciences 97:13666-13671. \url{http://doi.org/10.1073/pnas.240326697}
+#' @source Childs et al. 2000. Predicting the local dynamics of epizootic rabies among raccoons in the United States Proceedings of the National Academy of Sciences 97:13666-13671. <doi:10.1073/pnas.240326697>
 "rabies"
 
 #cXX
@@ -504,7 +522,7 @@
 #'   \item{deaths}{weekly deaths}
 #'   \item{popsize}{weekly population size interpolated from census data}
 #' }
-#' @source Lavine et al. 2013. Immune boosting explains regime- shifts in prevaccine-era pertussis dynamics. PLoS ONE, 8(8):e72086. \url{http://doi:10.1371/journal.pone.0072086}
+#' @source Lavine et al. 2013. Immune boosting explains regime- shifts in prevaccine-era pertussis dynamics. PLoS ONE, 8(8):e72086. <doi:10.1371/journal.pone.0072086>
 "pertcop"
 
 #c12
@@ -524,7 +542,7 @@
 #'   \item{water}{treatment: dry or wet}
 #'   \item{score}{the rust score}
 #' }
-"gra"
+"euthamia"
 
 #' Antler smut on wild campion.
 #'
@@ -539,7 +557,7 @@
 #'   \item{dmean}{number of diseased plants}
 #' }
 #' @source Antonovics, J. 2004. Long-term study of a plant-pathogen metapopulation. In: Hanski, Ilkka, and Oscar E. Gaggiotti. Ecology, genetics, and evolution of metapopulations. Academic Press. 
-"silene2"
+"silene"
 
 #' Defoliated by gypsy moth each in northeast US 1975-2002.
 #'
@@ -551,7 +569,7 @@
 #'   \item{xy}{A matrix with two columns representing UTM coordinates}
 #'  \item{defoliation}{A matrix with 28 columns representing pixel-wise defoliation between 1976 and 2002}
 #' }
-#' @source Bjornstad, O. N., Robinet, C., & Liebhold, A. M. (2010). Geographic variation in North American gypsy moth cycles: subharmonics, generalist predators, and spatial coupling. Ecology, 91(1), 106-118. \url{http://doi.org/10.1890/08-1246.1}
+#' @source Bjornstad, O. N., Robinet, C., & Liebhold, A. M. (2010). Geographic variation in North American gypsy moth cycles: subharmonics, generalist predators, and spatial coupling. Ecology, 91(1), 106-118. <doi:10.1890/08-1246.1>
 "gypsymoth"
 
 #c11b
@@ -570,7 +588,7 @@
 #' seal carcases}
 #' \item{fs}{A 25-by-25 matrix representing the seaway friction distance among the haulouts.}
 #' }
-#' @source Harding, K. C., Härkönen, T. and Caswell, H. (2002), The 2002 European seal plague: epidemiology and population consequences. Ecology Letters, 5: 727-732. \url{https://doi.org/10.1046/j.1461-0248.2002.00390.x}
+#' @source Harding, K. C., Härkönen, T. and Caswell, H. (2002), The 2002 European seal plague: epidemiology and population consequences. Ecology Letters, 5: 727-732. <doi:10.1046/j.1461-0248.2002.00390.x>
 "pdv"
 
 #' Rabies month of first appearance across Connecticut.
@@ -603,9 +621,10 @@
 #' \item{longlat}{A matrix with 354 rows and two columns. Rows 
 #' represents community and columns longitude and latitude.}
 #' \item{year}{A vector of length 354 that represents time for each week as yearly decimals.} 
+#' \item{coverage}{A vector of length 2661 that represents reported annual vaccine coverage for each week.} 
 #' }
-#' @source  Grenfell, B.T., Bjornstad, O.N., & Kappey, J. 2001. Travelling waves and spatial hierarchies in measles epidemics. Nature 414: 716-723. \url{http://dx.doi.org/10.1038/414716a}
-#' @source Lau, M.S.Y., Becker, A.D, Korevaar, H.M., Caudron, Q., Shaw, D.J., Metcalf, C.J.E., Bjornstad, O.N. and Grenfell, B.T. 2020. A competing-risks model explains hierarchical spatial coupling of measles epidemics en route to national elimination. Nature Ecology & Evolution. \url{https://doi.org/10.1038/s41559-020-1186-6}
+#' @source  Grenfell, B.T., Bjornstad, O.N., & Kappey, J. 2001. Travelling waves and spatial hierarchies in measles epidemics. Nature 414: 716-723. <doi:10.1038/414716a>
+#' @source Lau, M.S.Y., Becker, A.D, Korevaar, H.M., Caudron, Q., Shaw, D.J., Metcalf, C.J.E., Bjornstad, O.N. and Grenfell, B.T. 2020. A competing-risks model explains hierarchical spatial coupling of measles epidemics en route to national elimination. Nature Ecology & Evolution. <doi:10.1038/s41559-020-1186-6>
 "m4494"
 
 #c12
@@ -624,7 +643,7 @@
 #' \item{$nodes$type}{node classifier; 1 = client, 2 = worker, 3 = both}
 #' \item{$cm}{the relational (contact) matrix among the individuals in the network.}}
 #' @source Woodhouse et al. (1994) Mapping a social network of heterosexuals at high risk for HIV Infection. AIDS 8:1331-1336. doi:10.1097/00002030-199409000-00018
-#' @source Klovdahl et al. (1994) Social networks and infectious disease: The Colorado Springs study. Social Science and Medicine 38:79-88. \url{doi:10.1016/0277-9536(94)90302-6}
+#' @source Klovdahl et al. (1994) Social networks and infectious disease: The Colorado Springs study. Social Science and Medicine 38:79-88. <doi:10.1016/0277-9536(94)90302-6>
 #' @source \url{https://opr.princeton.edu/archive/p90/}
 "cspring"
 
@@ -647,7 +666,7 @@
 #'   \item{CFU}{bacterial count}
 #'   \item{Description}{unique litter identifier}
 #' }
-#' @source Long et al (2010) Identifying the Age Cohort Responsible for Transmission in a Natural Outbreak of Bordetella bronchiseptica. PLoS Pathogens 6(12): e1001224. \url{http://doi:10.1371/journal.ppat.1001224}
+#' @source Long et al (2010) Identifying the Age Cohort Responsible for Transmission in a Natural Outbreak of Bordetella bronchiseptica. PLoS Pathogens 6(12): e1001224. <doi:10.1371/journal.ppat.1001224>
 "litter"
 
 #c14
@@ -677,5 +696,5 @@
 #'   \item{No}{unique identifier}
 #'   \item{Treatment}{Experimental treatment}
 #' }
-#' @source Roy et al. 2009. Multivariate statistical analyses demonstrate unique host immune responses to single and dual lentiviral infection. PLoS one 4, e7359. \url{http://doi.org/10.1371/journal.pone.0007359}
+#' @source Roy et al. 2009. Multivariate statistical analyses demonstrate unique host immune responses to single and dual lentiviral infection. PLoS one 4, e7359. <doi:10.1371/journal.pone.0007359>
 "fiv"

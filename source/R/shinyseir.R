@@ -38,7 +38,7 @@ mainPanel(
            helpText("Mean transmission $$\\beta_0 = R_0 (\\sigma+\\mu) (\\gamma+\\mu) / \\sigma$$"),
            helpText("Seasonality $$\\beta(t) =  \\beta_0 (1 + \\beta_1 cos(2 \\pi t))$$"),
            helpText("Reproduction number $$R_0 =  \\frac{\\sigma}{\\sigma +\\mu} \\frac{1}{\\gamma+\\mu} \\frac{\\beta N}{N} = \\frac{\\sigma}{\\sigma +\\mu} \\frac{\\beta}{\\gamma+\\mu}$$"),             
-            helpText("REFERENCE: Earn DJD, Rohani P, Bolker BM, Grenfell BT (2000) A simple model for complex dynamical transitions in epidemics.
+            helpText("REFERENCE: Earn, D.J.D., Rohani, P., Bolker, B.M. and Grenfell, B.T. (2000) A simple model for complex dynamical transitions in epidemics.
              Science 287: 667-670"))
            ))
   

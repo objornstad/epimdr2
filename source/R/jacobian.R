@@ -4,7 +4,7 @@
 #'
 #' @param states a vector naming all state variables
 #' @param elist a list that contains equations (as quotes) for all state variables
-#' @param params a labeled vector of parameters
+#' @param parameters a labeled vector of parameters
 #' @param pts a labeled vector of the point in the phase plane in which to evaluate the Jacobian 
 #' (often the endemic or disease-free equilibrium if working in mathematical epidemiology)
 #' @return The Jacobian matrix
@@ -18,10 +18,10 @@
 #' paras  = c(mu = 1/50, N = 1, beta =  1000, 
 #' sigma = 365/8, gamma = 365/5, alpha=0)
 #' deq=list(S = 1, E = 0, I = 0, R = 0)
-#' jacobian(states=states, elist=elist, params=paras, pts=deq)
+#' jacobian(states=states, elist=elist, parameters=paras, pts=deq)
 #' @export
-jacobian=function(states, elist, params, pts){
-paras = as.list(c(pts, params)) 
+jacobian=function(states, elist, parameters, pts){
+paras = as.list(c(pts, parameters)) 
 
 k=0
 jl=list(NULL)
