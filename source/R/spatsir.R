@@ -1,4 +1,4 @@
-#' A function to caculate the matrix of gravity coupling based on distance and population size
+#' A function to calculate the matrix of gravity coupling based on distance and population size
 #' @param tau1 recipient exponent
 #' @param tau2 donor exponent
 #' @param rho distance exponent
