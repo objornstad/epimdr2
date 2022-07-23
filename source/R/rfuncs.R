@@ -23,7 +23,7 @@ llik.cb = function(S0,beta,I){
 #' Function to simulate the chain-binomial model
 #' @param S0 a scalar with value for S0
 #' @param beta a scalar with value for beta
-#' @return A data-frame with time series of susceptibles and infecteds
+#' @return A data-frame with time series of susceptibles and infected
 #' @examples
 #' sim=sim.cb(S0=6500, beta=23)
 #' @export
