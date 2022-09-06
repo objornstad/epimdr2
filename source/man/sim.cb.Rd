@@ -12,7 +12,7 @@ sim.cb(S0, beta)
 \item{beta}{a scalar with value for beta}
 }
 \value{
-A data-frame with time series of susceptibles and infecteds
+A data-frame with time series of susceptibles and infected
 }
 \description{
 Function to simulate the chain-binomial model

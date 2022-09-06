@@ -2,7 +2,7 @@
 % Please edit documentation in R/rfuncs.R
 \name{integrandpc}
 \alias{integrandpc}
-\title{Auxilliary function used by llik.pc}
+\title{Auxiliary function used by llik.pc}
 \usage{
 integrandpc(a, up, foi)
 }
@@ -17,7 +17,7 @@ integrandpc(a, up, foi)
 A vector with FoIs matched to data
 }
 \description{
-Auxilliary function used by llik.pc
+Auxiliary function used by llik.pc
 }
 \seealso{
 {llik.pc}

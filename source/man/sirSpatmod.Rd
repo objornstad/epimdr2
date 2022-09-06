@@ -9,7 +9,7 @@ sirSpatmod(t, y, parameters)
 \arguments{
 \item{t}{Implicit argument for time}
 
-\item{y}{A vector of length L*3 with initial values for the states. The first 1:L represents intial S's, (L+1):2*L are initial I's and the last (2*L+1):3*L are initial R's}
+\item{y}{A vector of length L*3 with initial values for the states. The first 1:L represents initial S's, (L+1):2*L are initial I's and the last (2*L+1):3*L are initial R's}
 
 \item{parameters}{A vector with parameter values for the spatial SIR system}
 }

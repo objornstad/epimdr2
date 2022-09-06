@@ -2,7 +2,7 @@
 % Please edit documentation in R/spatsir.R
 \name{gravity}
 \alias{gravity}
-\title{A function to caculate the matrix of gravity coupling based on distance and population size}
+\title{A function to calculate the matrix of gravity coupling based on distance and population size}
 \usage{
 gravity(tau1, tau2, rho, pop, distance)
 }
@@ -21,7 +21,7 @@ gravity(tau1, tau2, rho, pop, distance)
 A matrix of gravity coupling
 }
 \description{
-A function to caculate the matrix of gravity coupling based on distance and population size
+A function to calculate the matrix of gravity coupling based on distance and population size
 }
 \examples{
 require(ncf)

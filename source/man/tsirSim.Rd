@@ -26,7 +26,7 @@ tsirSim(
 
 \item{S0}{the initial susceptible fraction}
 
-\item{I0}{the initial number of infecteds}
+\item{I0}{the initial number of infected}
 
 \item{IT}{the length of simulation}
 

@@ -2,7 +2,7 @@
 % Please edit documentation in R/rfuncs.R
 \name{llik.pc}
 \alias{llik.pc}
-\title{Function to estimate parameters for the picewise-constant catalytic model}
+\title{Function to estimate parameters for the piecewise-constant catalytic model}
 \usage{
 llik.pc(par, age, num, denom, up)
 }

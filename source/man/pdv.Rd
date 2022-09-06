@@ -11,7 +11,7 @@ A list with three items:
 represents location name, latitude is latitude and longitude is longitude}
   \item{ts}{A data frame with 26 columns and 269 rows. The first column is the day 
  since beginning of outbreak and the next 25 columns are cumulative count of stranded
-seal carcases}
+seal carcasses}
 \item{fs}{A 25-by-25 matrix representing the seaway friction distance among the haulouts.}
 }
 }

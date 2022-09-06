@@ -2,7 +2,7 @@
 % Please edit documentation in R/leslie.R
 \name{leslie}
 \alias{leslie}
-\title{A function to caculate asymptotic growth, senitivy and elasticity for age-structured populations}
+\title{A function to calculate asymptotic growth, sensitivity and elasticity for age-structured populations}
 \usage{
 leslie(L)
 }
@@ -18,7 +18,7 @@ A list consisting of the following components:
 \item{sensitivity}{the sensitivities.}
 }
 \description{
-A function to caculate asymptotic growth, senitivy and elasticity for age-structured populations
+A function to calculate asymptotic growth, sensitivity and elasticity for age-structured populations
 }
 \examples{
 fa<-c(0, 0.5, 1.2)
