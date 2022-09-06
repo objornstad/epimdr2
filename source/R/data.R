@@ -585,7 +585,7 @@
 #' represents location name, latitude is latitude and longitude is longitude}
 #'   \item{ts}{A data frame with 26 columns and 269 rows. The first column is the day 
 #'  since beginning of outbreak and the next 25 columns are cumulative count of stranded
-#' seal carcases}
+#' seal carcasses}
 #' \item{fs}{A 25-by-25 matrix representing the seaway friction distance among the haulouts.}
 #' }
 #' @source Harding, K. C., Härkönen, T. and Caswell, H. (2002), The 2002 European seal plague: epidemiology and population consequences. Ecology Letters, 5: 727-732. <doi:10.1046/j.1461-0248.2002.00390.x>

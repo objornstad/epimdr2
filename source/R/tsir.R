@@ -7,7 +7,7 @@
 #' @param beta the transmission rate
 #' @param sdbeta the standard deviation on beta
 #' @param S0 the initial susceptible fraction
-#' @param I0 the initial number of infecteds
+#' @param I0 the initial number of infected
 #' @param IT the length of simulation
 #' @param N the population size
 #' @return A list with time series of simulated infected and susceptible hosts

@@ -1,4 +1,4 @@
-#' A function to caculate the matrix of gravity coupling based on distance and population size
+#' A function to calculate the matrix of gravity coupling based on distance and population size
 #' @param tau1 recipient exponent
 #' @param tau2 donor exponent
 #' @param rho distance exponent
@@ -23,7 +23,7 @@ gravity = function(tau1, tau2, rho, pop, distance){
 #'
 #' Gradient function for a spatially-extended SIR model given some spatial topology
 #' @param t Implicit argument for time
-#' @param y  A vector of length L*3 with initial values for the states. The first 1:L represents intial S's, (L+1):2*L are initial I's and the last (2*L+1):3*L are initial R's
+#' @param y  A vector of length L*3 with initial values for the states. The first 1:L represents initial S's, (L+1):2*L are initial I's and the last (2*L+1):3*L are initial R's
 #' @param parameters A vector with parameter values for the spatial SIR system
 #' @return A list of gradients 
 #' @examples

@@ -23,7 +23,7 @@ llik.cb = function(S0,beta,I){
 #' Function to simulate the chain-binomial model
 #' @param S0 a scalar with value for S0
 #' @param beta a scalar with value for beta
-#' @return A data-frame with time series of susceptibles and infecteds
+#' @return A data-frame with time series of susceptibles and infected
 #' @examples
 #' sim=sim.cb(S0=6500, beta=23)
 #' @export
@@ -43,7 +43,7 @@ return(out)
 
 #c3
 
-#' Auxilliary function used by llik.pc 
+#' Auxiliary function used by llik.pc 
 #' @param a a vector with the ages 
 #' @param up a vector with upper age-bracket cut-offs
 #' @param foi a vector with FoI
@@ -58,7 +58,7 @@ return(inte)
  }
 
 
-#' Function to estimate parameters for the picewise-constant catalytic model
+#' Function to estimate parameters for the piecewise-constant catalytic model
 #'
 #' This function uses binomial likelihoods to estimate the picewise-constant FoI model from age-incidence data
 #'

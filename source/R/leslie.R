@@ -1,4 +1,4 @@
-#' A function to caculate asymptotic growth, senitivy and elasticity for age-structured populations
+#' A function to calculate asymptotic growth, sensitivity and elasticity for age-structured populations
 #' @param L the Leslie matrix
 #' @return A list consisting of the following components: 
 #' \item{lambda}{the dominant eigen value of the Leslie matrix.}
@@ -18,7 +18,7 @@
 #' @references Caswell, H. 2001.  Matrix Population Models: Construction, Analysis, and Interpretation. 2nd edn Sinauer Associates Inc., Sunderland, MA, 
 #' @export
 leslie = function(L){
-   Ex = eigen(L)    #Eigendecompostition of matrix
+   Ex = eigen(L)    #Eigendecomposition of matrix
    w = Re(Ex$vectors[, 1]) #right eigenvector
    lambda = Re(Ex$values[1])  #dominant eigenvalue
    v = Re(eigen(t(L))$vectors[, 1])    #left eigenvector 

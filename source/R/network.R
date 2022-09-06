@@ -129,7 +129,7 @@ sirNetmod=function(CM,tau,gamma){
 #tau = probability of infection across an edge
 #gamma = probability of removal per time step 
 N=dim(CM)[1]
-I=matrix(rep(0,N),nrow=N,ncol=1)   # initialize infecteds 
+I=matrix(rep(0,N),nrow=N,ncol=1)   # initialize infected
 S=matrix(rep(1,N),nrow=N,ncol=1)  # initialize susceptibles 
 R=matrix(rep(0,N),nrow=N,ncol=1)  # initialize removed 
 I1=sample(1:N, size=1)
