@@ -1,0 +1,21 @@
+1.0-7 Renamed mod functions and data sets. Added sirSpat, gravity and ross.app. Updated twostrain and twostrain.app. Added variant dataset.
+
+1.0-6 Changed capitalization of functions and datasets
+
+1.0-5 added spatTsir and waller, pdv and m4494 datasets. 
+
+1.0-4 added twostrain. Updated seir, seirs and sir shinyApps
+
+1.0-3 Added colorado spring network; changed NetworkSIR to sirNetmod
+
+1.0-2 Change shinys to use R0 rather than beta. Added twostrain.app
+
+1.0-1 Updated functions and code towards 2nd edition of "Epidemics: Models and data in R".  Changed coyne parameterization.
+
+0.7-1 Added nextgenR0, jacobian
+
+0.6-5 Fixed legend in shiny Apps. Removed flowField and re-require phaseR
+
+0.6-4 includes flowField function from Michael J Grayling's phaseR package (https://github.com/mjg211) as per GPL-3 license.
+
+ 0.6-3 Improved shinyApps
